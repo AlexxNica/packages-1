@@ -4,7 +4,7 @@
 
 import("//build/config/fuchsia/bootdata.gni")
 import("//build/toolchain/clang_toolchain.gni")
-import("//packages/gn/packages.gni")
+import("//build/gn/packages.gni")
 
 declare_args() {
   # path to autorun script
